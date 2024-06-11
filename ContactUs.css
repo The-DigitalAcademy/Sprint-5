@@ -1,0 +1,14 @@
+.main{
+    display: grid;
+    grid-template-areas: 1fr 1fr 
+    
+}
+
+
+
+.Container2{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+    
