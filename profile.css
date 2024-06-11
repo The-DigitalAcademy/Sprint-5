@@ -68,7 +68,13 @@ h2{
     top: -5px;
 }
 
-button{
+.buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+.results{
     position: relative;
     width: 100%;
     height: 40px;
@@ -81,60 +87,23 @@ button{
     outline: none;
 }
 
-button:hover{
+.clear{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #908f9088;
+    font-size: 16px solid;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+
+.results:hover{
     background-color: #4542459f;
 
 
 }
 
-
-.social{
-    text-align: center;
-    font-size: 14px;
-
-
-}
-.facebook {
-    display: inline;
-     justify-items: center;
-     text-align: center;
-     height: 30px;
-     width: 30px;
-     margin-left: 100px;
-     border-radius: 50%;
-    
-}
-.facebook:hover{
-    background-color: #d4d1d3;
-   cursor: pointer;
-}
-
-.twitter {
-    display: inline;
-     justify-items: center;
-     text-align: center;
-     height: 30px;
-     width: 30px;
-     margin-left: 50px;
-     border-radius: 50%;
-    
-}
-.twitter:hover{
-    background-color: #c8c7c8;
-   cursor: pointer;
-}
-
-.google {
-    display: inline;
-     justify-items: center;
-     text-align: center;
-     height: 30px;
-     width: 30px;
-     margin-left: 50px;
-     border-radius: 50%;
-    
-}
-.google:hover{
-    background-color: #c5c3c4;
-   cursor: pointer;
-}

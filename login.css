@@ -128,11 +128,13 @@ button:hover{
     text-align: center;
     color: #7e7d7d;
 }
-p{color: #fff;}
+p{color: #fff;
+font-size: 16;}
 
 .social{
     text-align: center;
     font-size: 14px;
+   
 
 
 }
@@ -142,7 +144,7 @@ p{color: #fff;}
      text-align: center;
      height: 30px;
      width: 30px;
-     margin-left: 100px;
+     margin-left: 60px;
      border-radius: 50%;
     
 }
