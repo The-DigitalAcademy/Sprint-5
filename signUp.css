@@ -45,11 +45,11 @@ h2{
     position: absolute;
     top: 50%;
     left: 5px;
-   
     font-size: 16px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
+    outline: none;
 }
 .input-group input{
     width: 320px;
@@ -59,6 +59,7 @@ h2{
     padding: 0 5px;
     background: transparent;
     border: none;
+    outline: none;
     
 
 }
