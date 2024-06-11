@@ -6,20 +6,21 @@ body{
     justify-content: center;
     padding: 40px;
     align-items: center;
-    background: linear-gradient(to right,
-     #2c2c2c,
-     #373636,
-     #4c4c4d);
+    background: black;
+     
 
 }
 .wrapper{
+    margin-top: 200px;
     width: 400px;
-    height: 600px;
-    background: black;
+    height: 800px;
+    background: rgba(111, 110, 110, 0.438);
     border-radius: 5px;
     padding: 40px;
     align-items: center;
-    transition: 1s ease-in-out;
+    
+   
+   
     
 }
 
@@ -112,3 +113,70 @@ h2{
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.logo{
+    width: 40px;
+    height: 40px;
+
+}
+
+.logodv {
+    /* margin-left: 200px; */
+}
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+
+}
+.headPart {
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+li,a,button {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: -650px; */
+    font-size: 30px;
+    font-weight: 700px;
+
+
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+    margin-top: -800px;
+    
+}
+
+.nav-links{
+    list-style: none;
+
+}
+.nav-links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}

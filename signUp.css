@@ -6,16 +6,17 @@ body{
     justify-content: center;
     padding: 40px;
     align-items: center;
-    background: linear-gradient(to right,
-     #2c2c2c,
-     #373636,
-     #4c4c4d);
+   
+     background: black;
 
 }
 .wrapper{
     width: 400px;
     height: 700px;
-    background: black;
+    background: linear-gradient(to right,
+    #2c2c2c,
+    #373636,
+    #4c4c4d);
     border-radius: 5px;
     padding: 40px;
     align-items: center;

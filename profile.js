@@ -21,6 +21,19 @@ function gymApp() {
         weightresults = 'Obese )';
     }
 
+    if (fname === '' || gender === '' || age === '' || weight === '' || height === '') {
+        alert('Please fill in all the fields');
+    } else {
+        // If all fields are filled, proceed with form submission
+        document.getElementById('display').innerHTML = 'Name: ' + name + '<br>' +
+            'Gender: ' + gender + '<br>' +
+            'Age: ' + age + '<br>' +
+            'Weight: ' + weight + '<br>' +
+            'Height: ' + height;
+    }
+
+
+
     document.getElementById('display').innerHTML = 'Hi ' + fname + ', Here is your profile:<br>' +
                                                       'Age      : ' + age + '<br>' +
                                                       'Gender   : ' + gender + '<br>' +
