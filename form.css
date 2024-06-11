@@ -47,3 +47,34 @@ li,a,button {
     color: antiquewhite;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.nav-links{
+    list-style: none;
+   
+}
+.nav-links li {
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: -650px; */
+    font-size: 30px;
+    font-weight: 700px;
+}
