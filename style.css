@@ -2,3 +2,7 @@ img{
     width: 2000px;
     object-fit: fill;
 }
+
+body{
+    background-color: rgb(8, 7, 7);
+}
