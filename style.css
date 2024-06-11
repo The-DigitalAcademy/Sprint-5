@@ -6,3 +6,8 @@ img{
 body{
     background-color: rgb(8, 7, 7);
 }
+
+.about-us-text{
+    color: antiquewhite;
+    text-align: center;
+}
