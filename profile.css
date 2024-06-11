@@ -14,7 +14,7 @@ body{
 }
 .wrapper{
     width: 400px;
-    height: 700px;
+    height: 600px;
     background: black;
     border-radius: 5px;
     padding: 40px;
@@ -84,7 +84,12 @@ h2{
     cursor: pointer;
     border-radius: 30px;
     border: none;
-    outline: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.results:hover{
+    background-color: #4542459f;
+
 }
 
 .clear{
@@ -97,13 +102,13 @@ h2{
     cursor: pointer;
     border-radius: 30px;
     border: none;
-    outline: none;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-
-.results:hover{
+.clear:hover{
     background-color: #4542459f;
 
-
 }
+
 
