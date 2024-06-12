@@ -16,7 +16,7 @@ body{
      #4c4c4d);
     border-radius: 5px;
     padding: 40px;
-    margin-top: 200px;
+    margin-top: 150px;
     align-content: center;
     margin-left: -900px;
    
@@ -64,32 +64,38 @@ h2{
     top: -5px;
 }
 
-button{
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.results, .clear {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 40px;
     background: #908f9088;
-    font-size: 16px solid;
+    font-size: 16px;
     color: #fff;
     cursor: pointer;
     border-radius: 30px;
     border: none;
-    outline: none;
+    margin: 20px 0;
+    
 }
+.clear{
+    margin-left: 100px;
+}
+.hrline {color: antiquewhite;}
 
-button:hover{
+
+.results:hover, .clear:hover {
     background-color: #4542459f;
-
-
 }
 
 p{
     color: #fff;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 
 .headdiv {
 
@@ -97,7 +103,7 @@ p{
     justify-content:space-between;
     align-items: center;
     gap: 400px;
-
+ margin-top: 0px;
 }
 
 .ckName {
@@ -118,13 +124,16 @@ p{
 
 
 .logodv{
-    width:300px;
-    width: 40px;
-    height: 40px;
+    
+    width: 30px;
+    height: 30px;
+   margin-left: 50px;
+    
 }
 
-h3{
+h1{
     color: antiquewhite;
+   
     
    
 
@@ -134,7 +143,7 @@ h3{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
     
    
 }
@@ -145,7 +154,7 @@ h3{
     font-weight: 700px;
 
 }
-
+.hrline{ color: antiquewhite;}
 .leftpart{
     display: flex;
    width: 800px;

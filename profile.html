@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <header>
+    <header class ="main">
         <div class="headdiv">
-            <div class="headPart">
-                <div class="logodv"> <img src="/images/jumping-rope-svgrepo-com use.svg" class="logo"></div>
-                <div class="ckName">Gym Club</div>
+         
+                <div class="logodv"> <img src="jumping-rope-svgrepo-com_use.svg" ></div>
+             <h3>Gym Club</h3>
             </div>
             <div class="leftpart">
                 <nav>
@@ -23,7 +23,7 @@
                         <li><a href="#">Profile</a></li>
                     </ul>
                 </nav>
-            </div>
+        </div>
     </header>
 
     <div class="wrapper">
@@ -42,19 +42,19 @@
         </div>
         <div class="input-group">
             <input type="number" id="weight" required>
-            <label>Weight</label>
+            <label>Weight (kg)</label>
         </div>
         <div class="input-group">
             <input type="number" id="height" required>
-            <label>Height</label>
+            <label>Height (m)</label>
         </div>
         
         <div class="buttons">
-            <button onclick="gymApp()" type="submit" class="results">Submit</button>
+           <button onclick="gymApp()" type="submit" class="results">Submit</button>
             <button type="submit" class="clear">Clear</button>
         </div>
         
-        <p id="display"></p>
+       
     </div>
     
 
