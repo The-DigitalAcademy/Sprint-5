@@ -1,0 +1,49 @@
+img{
+    width: 1425px;
+    height: 500px;
+    object-fit: fill;
+
+}
+
+body{
+    background-color: rgb(8, 7, 7);
+}
+
+.about-us-text{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.para2{
+    color:rgb(245, 240, 240);
+    background-color: rgb(8, 7, 7);
+    
+}
+
+span{
+
+    color: aliceblue;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
