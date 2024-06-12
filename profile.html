@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class ="main">
+        <div class="headdiv">
+         
+                <div class="logodv"> <img src="jumping-rope-svgrepo-com_use.svg" ></div>
+             <h3>Gym Club</h3>
+            </div>
+            <div class="leftpart">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <h2>GYM APP</h2>
+        <div class="input-group">
+            <input type="text" id="fname" required>
+            <label>Name</label>
+        </div>
+        <div class="input-group">
+            <input type="text" id="gender" required>
+            <label>Gender</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="age" required>
+            <label>Age</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="weight" required>
+            <label>Weight (kg)</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="height" required>
+            <label>Height (m)</label>
+        </div>
+        
+        <div class="buttons">
+           <button onclick="gymApp()" type="submit" class="results">Submit</button>
+            <button type="submit" class="clear">Clear</button>
+        </div>
+        
+       
+    </div>
+    
+
+
+     <script src="profile.js"></script>
+ 
+</body>
+</html>
