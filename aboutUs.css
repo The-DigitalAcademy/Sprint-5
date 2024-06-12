@@ -24,26 +24,38 @@ span{
 
     color: aliceblue;
 }
-footer {
+footer{
     background-color: black;
-    color: white;
+    color: antiquewhite;
     text-align: center;
     padding: 10px 0;
 }
 
-.footer-content {
+.footer-content{
     margin: 0 auto;
+    color: rgb(250, 235, 215);
 }
 
-.footer-content p {
-    margin: 5px 0;
-}
 
-.footer-content a {
+
+.footer-content{
     color: rgb(245, 240, 240);
     text-decoration: none;
+
 }
 
-.footer-content a:hover {
-    text-decoration: underline;
+.footer-content a{
+    color: antiquewhite;
+    border-radius: 100px;
+
 }
+.p {
+    color: whitesmoke;
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+}
+
+
