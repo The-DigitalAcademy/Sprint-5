@@ -1,0 +1,67 @@
+*{
+    background-color: black;
+   
+    
+}
+
+.logodv{
+    width:300px;
+}
+
+h3{
+    color: aliceblue;
+
+}
+.main{
+
+    display: flex;
+    border: solid red;
+   
+}
+
+.headdiv{
+
+    border: color solid green;
+    display: flex;
+}
+
+.headPart{
+    border: solid coral;
+    width: 400px
+}
+
+.logodv{
+
+    border: solid coral;
+}
+
+.ckName{
+    border: solid coral;
+  
+
+}
+.leftpart{
+    display: flex;
+    border: solid rgb(25, 197, 34);
+   width: 800px;
+   justify-content: end;
+  
+
+}
+
+.nav-links{
+    display: flex;
+    text-decoration: none;
+ 
+    gap: 3rem;
+   
+
+}
+li a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+
+  
+}

@@ -5,86 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="profile.css">
-
 </head>
 <body>
     <header>
-        <!-- <div class="headdiv">
+        <div class="headdiv">
             <div class="headPart">
                 <div class="logodv"> <img src="/images/jumping-rope-svgrepo-com use.svg" class="logo"></div>
                 <div class="ckName">Gym Club</div>
-            </div> -->
-
-            <div class="leftpart">
-
-            <nav>
-                <ul class="nav-links">
-
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Profile</a></li>
-
-                </ul>
-            </nav>
-
             </div>
-        
-
+            <div class="leftpart">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
 
-
-
-    
     <div class="wrapper">
-       
-            
         <h2>GYM APP</h2>
         <div class="input-group">
-            <input type="text"required>
-            <label >Name</label>
+            <input type="text" id="fname" required>
+            <label>Name</label>
         </div>
         <div class="input-group">
-            <input type="text" id="gender" required >
-            <label >Gender</label>
+            <input type="text" id="gender" required>
+            <label>Gender</label>
         </div>
-
         <div class="input-group">
-            <input type="number" id="age" required >
-            <label >Age</label>
+            <input type="number" id="age" required>
+            <label>Age</label>
         </div>
-
         <div class="input-group">
-           <input type="number" id="weight"  required>  
-           <label >Weight</label>
+            <input type="number" id="weight" required>
+            <label>Weight</label>
         </div>
-
         <div class="input-group">
-        <input type="text" id="height" required>
-        <label >Height</label>
+            <input type="number" id="height" required>
+            <label>Height</label>
         </div>
-
         
         <div class="buttons">
             <button onclick="gymApp()" type="submit" class="results">Submit</button>
             <button type="submit" class="clear">Clear</button>
         </div>
-       
-
         
-        
-
-        
-        
-        </div>
-
-
-          
-          <p id="display"></p>
-        </div>
+        <p id="display"></p>
+    </div>
     
-    
-    <script src="profile.js"></script>
+
+
+     <script src="profile.js"></script>
+ 
 </body>
 </html>
