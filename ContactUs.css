@@ -1,3 +1,14 @@
+*{
+font-family:sans-serif ;
+font-weight: lighter;
+font-size: small;
+}
+
+.parr{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
 .main{
     display: grid;
     grid-template-areas: 1fr 1fr 
@@ -21,10 +32,37 @@
     margin-top: 1px;
     padding: 2px;
 border-radius: 5px;
-font-family:"Montserrat" , sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: bolder;
 font-size: 12px;
 margin-top: 0px;
+}
+
+.text{
+    color: aliceblue;
+}
+
+.bg{
+    background-color: rgb(10, 9, 9);
+}
+ 
+
+.par{
+    color: aliceblue;
+}
+
+.cont{
+    font-size: x-large;
+    font-style: normal;
+    text-shadow: 10px;
+    font-weight: 100;
+    color: aliceblue;
     
 }
+
+.grid{
+    gap: 6px;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
     
+}
