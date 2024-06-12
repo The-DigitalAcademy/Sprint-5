@@ -90,6 +90,20 @@ body{
     font-size: 30px;
     font-weight: 700px;
 }
+.loginM {
+    
+    /* align-items: center; */
+    color:black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    /* margin-top: 60px; */
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 650px; */
+    /* width: 120px; */
+    /* height: 50px; */
+    /* font-size: 8px; */
+}
 
 .appB {
     
@@ -102,5 +116,17 @@ body{
     justify-content: center;
     margin-left: 650px;
     width: 120px;
+    height: 50px;
+    font-size: 15px;
 }
+
+.appB:hover{
+    cursor: pointer;
+    box-shadow:  0 0 11px purple;
+}
+
+ .card1:active{
+    background-color: black;
+    color: white;
+ }
 
