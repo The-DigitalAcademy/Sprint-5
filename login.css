@@ -3,22 +3,22 @@
 }
 body{
     display: flex;
-    justify-content: center;
-    padding: 40px;
     align-items: center;
-    background: linear-gradient(to right,
-     #2c2c2c,
-     #373636,
-     #4c4c4d);
+    background: black;
+    
 
 }
 .wrapper{
     width: 400px;
     height: 500px;
-    background: black;
+    background: linear-gradient(to right,
+     #2c2c2c,
+     #373636,
+     #4c4c4d);
     border-radius: 5px;
     padding: 40px;
     margin-top: 200px;
+    align-content: center;
     margin-left: -900px;
    
     
@@ -37,16 +37,20 @@ h2{
     position: relative;
     margin: 30px 0;
     border-bottom: 2px solid #fff;
+    background: linear-gradient(to right,
+     #2c2c2c,
+     #373636,
+     #4c4c4d);
 }
 .input-group label{
     position: absolute;
     top: 50%;
     left: 5px;
-   
     font-size: 16px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
+   
 }
 .input-group input{
     width: 320px;
@@ -74,9 +78,8 @@ h2{
     font-size: 14px;
 
 }
-.remember label input{
-    accent-color: #f7f6f7;
-}
+
+
 .forgot{
     text-align: right;
     margin-left: 40%;
@@ -125,6 +128,8 @@ button:hover{
     text-align: center;
     color: #7e7d7d;
 }
+
+/* paragraphs */
 p{color: #fff;
 font-size: 16;}
 
@@ -181,15 +186,8 @@ font-size: 16;}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.logo{
-    width: 40px;
-    height: 40px;
 
-}
 
-.logodv {
-    /* margin-left: 200px; */
-}
 
 .headdiv {
 
@@ -199,121 +197,69 @@ font-size: 16;}
     gap: 400px;
 
 }
-.headPart {
-    justify-content:space-between;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    margin-left: 150px;
-}
 
-li,a,button {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    color: antiquewhite;
-    text-decoration: none;
-}
 .ckName {
     color: antiquewhite;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* margin-left: -650px; */
+    margin-left: -650px;
     font-size: 30px;
     font-weight: 700px;
 
 
 }
 
-body{
-    /* box-sizing: border-box; */
-    margin: 0%;
-    padding: 0%;
-    background-color: black;
-}
-header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 30px 10px;
-    margin-top: -500;
-    
-}
-
-.nav-links{
-    list-style: none;
-
-}
 .nav-links li {
 
     display: inline-block;
     padding: 0px 20px;
 }
 
-*{
-    background-color: black;
-   
-    
-}
 
 .logodv{
     width:300px;
+    width: 40px;
+    height: 40px;
 }
 
 h3{
-    color: aliceblue;
+    color: antiquewhite;
+    
+   
 
 }
 .main{
-
-    display: flex;
-    border: solid red;
     margin-top: -600px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+    
    
 }
-
-.headdiv{
-
-    border: color solid green;
-    display: flex;
-    
-}
-
-.headPart{
-    border: solid coral;
-    width: 400px
-}
-
-.logodv{
-
-    border: solid coral;
-}
-
-.ckName{
-    border: solid coral;
-  
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
 
 }
+
 .leftpart{
     display: flex;
-    border: solid rgb(25, 197, 34);
    width: 800px;
-   justify-content: end;
-  
-
-}
-
-.nav-links{
-    display: flex;
-    text-decoration: none;
- 
-    gap: 3rem;
+   justify-content: center;
    
-
 }
+
+
+
+
 li a {
+    display: flex;
     text-decoration: none;
     justify-content: space-between;
-    color: white;
-    display: flex;
-
-  
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    
 }
