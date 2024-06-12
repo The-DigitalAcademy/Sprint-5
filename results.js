@@ -1,4 +1,7 @@
-let Name = String(document.getElementById("Fname").value);
+function Results(){
+
+
+    let Name = String(document.getElementById("Fname").value);
 let Gender = Number(document.getElementById("gender").value);
 let Age =Number(document.getElementById("age").value);
 let group1 = `Roadwork   (4km) \n Squarts  (20 reps) \n Push ups (25 reps)`;
@@ -26,3 +29,49 @@ function calc() {
         weightResult = "obese";
     }
 }
+
+if ( 15 >= Age < 20 && Gender == "male" ) {
+    calc();
+    alert (`Hi ${Name} your Exercise ${group1} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+else if( 15 >= Age < 20 && Gender == "female" ){calc(); alert (`Hi ${Name} your Exercise ${group2} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+
+else if( 21>= Age < 30 && Gender == "male" ){ calc();alert (`Hi ${Name} your Exercise ${group3} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+else if( 21>= Age < 30 && Gender == "female" ){ calc();alert (`Hi ${Name} your Exercise ${group4} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+
+
+else if( 31 >= Age < 50 && Gender == "male" ){calc();alert (`Hi ${Name} your Exercise ${group5} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+else if( 31 >= Age < 50 && Gender == "female" ){alert (`Hi ${Name} your Exercise ${group6} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+else if( 51 >= Age < 60 && Gender == "male" ){alert (`Hi ${Name} your Exercise ${group7} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+else if( 51 >= Age < 60 && Gender == "female" ){alert (`Hi ${Name} your Exercise ${group8} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+
+else {alert (`Hi ${Name} your Exercise ${group9} \n your BMI is ${bmi.toFixed(1)}. You are ${weightResult}.`);
+
+}
+
+}
+
+
