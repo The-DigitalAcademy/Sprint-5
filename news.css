@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.headdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.headPart {
+    display: flex;
+    align-items: center;
+}
+
+.logodv img {
+    width: 50px;
+    height: 50px;
+}
+
+.ckName {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.leftpart nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.leftpart nav ul li {
+    margin-right: 20px;
+}
+
+.leftpart nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+.leftpart nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.select {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.column1, .column2 {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.column {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.column2 {margin-left: 30px;}
+.cont5 {
+    margin-bottom: 20px;
+}
+
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 10s infinite;
+}
+
+.slides img {
+    width: 33.3333%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-33.3333%); }
+    66% { transform: translateX(-66.6666%); }
+    100% { transform: translateX(0%); }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
