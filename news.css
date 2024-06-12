@@ -1,156 +1,155 @@
-
-
-*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;}
- 
- body{ background-color: rgb(57, 56, 56);
-     padding-top: 100px;}
-
- .motherdiv{display: flex;border-radius: 20px;}
- .registration{ border-color: black; width:200px;}
- 
-   .h2 {
-     text-align: center;
-     display: flex;
-   }
-   
- .select{ border-color: coral; padding-right: 40px; margin-left: 100px; margin-top: 0px;}
- 
- 
-
- .cont1{ cursor: pointer;
-   filter: alpha(opacity=100);
-   opacity: 1; 
- 
-   width: 300px; height: 200px;
-    gap: 10px; margin-bottom: 20px; 
-    border-radius: 10px; 
-     padding-left: 20px; padding-top: 30px;  }
- .cont2{ cursor: pointer; border-color:. solid rgb(15, 0, 128); width: 300px; height: 200px; gap: 30px; margin-bottom: 20px; border-radius: 10px; padding-left: 20px; padding-top: 30px;}
-
- .cont4{ cursor: pointer; border-color: solid rgb(128, 0, 102); width: 400px; height: 200px; margin-bottom: 20px; border-radius: 10px;  padding-left: 20px; padding-top: 30px;}
- .cont5{ cursor: pointer; border-color: solid green; width: 300px; height: 200px; margin-bottom: 20px; border-radius: 10px;  padding-left: 20px; padding-top: 30px; color: white;}
- 
- .column1{width: 300px; height: 150px; }
- .column2{ width: 200px; height: 150px; }
- .column{padding-left: 39px; width: 500px; height: 500px; margin-right: 100px;}
- .boxes{ display: flex;}
- 
- 
- .text{ margin-left: 10px; margin-top: 50px;}
- 
- /* .cont1:hover{ 
-   background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1; }
- .cont1:active{ border-color: 4px solid #D9534F;
-   background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
-   .cont1:active{ border: 0.6px solid;}
-   .cont1:focus{ border: 0.5 solid green; outline: 1px solid green;}
- .cont2:hover{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont2:active{background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont3:hover{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont3:active{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont4:hover{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 0.5;}
- .cont4:active{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont5:hover{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;}
- .cont5:active{ background: #efefef;
-   filter: alpha(opacity=100);
-   opacity: 1;} */
-
- 
-   #form{background: linear-gradient(120deg, #efefef);}
- 
- .maindiv {
-   width: 400px;
- }
- 
-
-
-
-
-
-
-
-
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.logo{
-    width: 40px;
-    height: 40px;
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
-.logodv {
-    /* margin-left: 200px; */
+.header {
+    background-color: #333;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .headdiv {
-
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    gap: 400px;
-
+    padding: 10px 20px;
 }
+
 .headPart {
-    justify-content:space-between;
-    align-items: center;
     display: flex;
-    gap: 10px;
-    margin-left: 150px;
+    align-items: center;
 }
 
-li,a,button {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    color: antiquewhite;
-    text-decoration: none;
+.logodv img {
+    width: 50px;
+    height: 50px;
 }
+
 .ckName {
-    color: antiquewhite;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* margin-left: -650px; */
-    font-size: 30px;
-    font-weight: 700px;
-
-
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-body{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    background-color: black;
-}
-header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 30px 10px;
-}
-
-.nav-links{
+.leftpart nav ul {
     list-style: none;
-
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-.nav-links li {
 
+.leftpart nav ul li {
+    margin-right: 20px;
+}
+
+.leftpart nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.leftpart nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.select {
+    padding: 20px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.column1, .column2 {
+    width: 30%;
     display: inline-block;
-    padding: 0px 20px;
+    vertical-align: top;
 }
+
+.column2{ margin-left: 50px;}
+
+.column {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cont5 {
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.ckName{color: antiquewhite;}
