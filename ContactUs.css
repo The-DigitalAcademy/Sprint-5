@@ -10,12 +10,15 @@ font-size: small;
 }
 
 .main{
-    display: grid;
-    grid-template-areas: 1fr 1fr 
-    
+    display: flex;
+width: 60%;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    /* grid-template-areas: 1fr 1fr 
+     */
     
 }
-
 
 
 .Container2{
@@ -31,7 +34,8 @@ font-size: small;
     margin-bottom: 1px;
     margin-top: 1px;
     padding: 2px;
-border-radius: 5px;
+border-radius: 3px;
+border: #8c8d8f;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: bolder;
 font-size: 12px;
@@ -60,9 +64,144 @@ margin-top: 0px;
     
 }
 
-.grid{
-    gap: 6px;
-    margin-bottom: 1.5rem;
-    gap: 1.5rem;
+#gap{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+   /* margin-left: 30px; */
+   margin-left: 40px;
+   padding-left: 70px; 
+   border-radius: none;
+   align-items: center;
+   /* margin-bottom: 0.5rem;  */
+   margin-bottom: 1.5rem; 
+   gap: 2px; 
+   border-radius: 4px;
+    background-color: rgb(201, 197, 197); height: 525px; width: 100%; 
+width: 550px;
+
+}
+
+#first_name{
+display: block; 
+padding: 0.625rem; 
+margin-bottom: 0.5rem; 
+border-radius: 0.5rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+width: 50%; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #e6e8ec; 
+
+}
+
+#last_name{
+    display: block; 
+padding: 0.625rem; 
+margin-bottom: 0.5rem; 
+border-radius: 0.5rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+width: 50%; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #f0f1f4; 
+
+
+}
+
+#company{
+    display: block; 
+    padding: 0.625rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    width: 50%; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #e0e2e5; 
     
+}
+
+#phone{
+    display: block; 
+    padding: 0.625rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    width: 50%; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #d3d5d8; 
+    
+    }
+
+#website{
+    display: block; 
+padding: 0.625rem; 
+margin-bottom: 0.5rem; 
+border-radius: 0.5rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+width: 50%; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #cacbcd; 
+align-items: flex-end;
+}
+
+#visitors{
+    display: block; 
+padding: 0.625rem; 
+margin-bottom: 0.5rem; 
+border-radius: 0.5rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+width: 50%; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #8c8d8f; 
+
+
+}
+
+#email{
+    display: block; 
+padding: 0.625rem; 
+margin-bottom: 0.5rem; 
+border-radius: 0.5rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+width: 155%; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #c6c8cb; 
+}
+
+.text{
+    color: aliceblue;
+}
+
+#message{
+    display: block; 
+    padding: 0.625rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    width: 155%; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #c6c8cb; 
 }
