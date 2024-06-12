@@ -7,10 +7,12 @@ function gymApp() {
     let password1 = document.getElementById('password1').value;
     let password2 = document.getElementById('password2').value;
     let location = document.getElementById('location').value;
+    let (password1 === password2);
 
-    if (fname === '' || surname === '' || email === '' || phone === '' 
-        || id === '' || password1 === '' || password2 === '' || location === '') {
+    if (fname === '' || surname === '' || email === '' || phone === '' || id === '' || password1 === '' || password2 === '' || location === '') 
+    {
         alert('Please fill in all the fields');
+
     } else if (password1 !== password2) {
         alert('Passwords do not match');
     } else {
