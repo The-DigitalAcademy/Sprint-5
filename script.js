@@ -1,12 +1,14 @@
-let Name = prmpt('enter your name')
-let Gender = prompt('Enter gender')
-let Age = Number(prompt('Enter your age'))
-let group1=
-let group2=
-let group3=
-let group4=
-let group5=
-let group6=
-let group7=
-let group8=
-let group9=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
