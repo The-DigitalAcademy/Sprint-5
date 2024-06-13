@@ -1,7 +1,7 @@
 function Results(){
 
 
-    let Name = String(document.getElementById("Fname").value);
+    let Name = String(document.getElementById("fname").value);
 let Gender = Number(document.getElementById("gender").value);
 let Age =Number(document.getElementById("age").value);
 let group1 = `Roadwork   (4km) \n Squarts  (20 reps) \n Push ups (25 reps)`;
@@ -13,8 +13,8 @@ let group6 = `Roadwork   (4km) \n Squarts  (65 reps) \n Push ups (25 reps)`;
 let group7 = `Roadwork   (2km) \n Squarts  (10 reps) \n Push ups (10 reps)`;
 let group8 = `Roadwork   (1km) \n Squarts  (20 reps) \n Push ups (5 reps)`;
 let group9 = `Roadwork   (500m) \n Squarts  (10 reps) \n Push ups (10 reps)`;
-let weight = Number(document.getElementById(" weight").value);
-let height = parseFloat(prompt("Enter your height"));
+let weight = Number(document.getElementById("weight").value);
+let height = parseFloat(document.getElementById("height").value);
 let bmi = Number((weight / ((height)^2)))
 let weightResult;
 
@@ -73,20 +73,3 @@ else {alert (`Hi ${Name} your Exercise ${group9} \n your BMI is ${bmi.toFixed(1)
 }
 
 }
-
-
-
-
-
-
-
-}
-function clearfn() {        
-       document.getElementById('Fname').value = ''; 
-       document.getElementById('gender').value = '';     
-       document.getElementById('age').value = '';     
-       document.getElementById('weight').value = '';     
-       document.getElementById('height').value = '';       
-       document.getElementById("display").innerHTML = '';  }
-
-
