@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
     width: 400px;
-    height: 750px;
+    height: 720px;
     background: linear-gradient(to right,
      #2c2c2c,
      #373636,
@@ -67,7 +67,7 @@ h2{
 }
 
 
-.buttons {
+.button1 {
     display: flex;
     align-items: center;
 }
@@ -124,5 +124,9 @@ footer {
     text-decoration: underline;
 }
 
+.button2 {
 
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
 
