@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 img{
     width: 1425px;
     height: 500px;
@@ -12,11 +14,15 @@ body{
 .about-us-text{
     color: antiquewhite;
     text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .para2{
     color:rgb(245, 240, 240);
     background-color: rgb(8, 7, 7);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     
 }
 
@@ -24,16 +30,20 @@ span{
 
     color: aliceblue;
 }
+
 footer{
     background-color: black;
     color: antiquewhite;
     text-align: center;
     padding: 10px 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .footer-content{
     margin: 0 auto;
     color: rgb(250, 235, 215);
+    
 }
 
 
@@ -45,17 +55,22 @@ footer{
 }
 
 .footer-content a{
-    color: antiquewhite;
+    color: #ffcc00;
     border-radius: 100px;
-
+    text-decoration: none;
 }
-.p {
-    color: whitesmoke;
+.p{
+   
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .buttons {
     display: flex;
     margin: auto;
+    
 }
+
+
 
 
