@@ -25,7 +25,7 @@ body{
 
 h2{
     font-size: 30px;
-    color: #fff;
+    color: antiquewhite;
     text-align: center;
     margin-top: -10px;
 
@@ -34,7 +34,7 @@ h2{
 .input-group{
     position: relative;
     margin: 30px 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid antiquewhite;
    
 }
 .input-group label{
@@ -42,7 +42,7 @@ h2{
     top: 50%;
     left: 5px;
     font-size: 16px;
-    color: #fff;
+    color: antiquewhite;
     transition: .5s;
     outline: none;
 }
@@ -52,7 +52,7 @@ h2{
     width: 320px;
     height: 40px;
     font-size: 16px;
-    color: #fff;
+    color: antiquewhite;
     padding: 1 5px;
     background: transparent;
     border: none;
@@ -78,7 +78,7 @@ h2{
     height: 40px;
     background: #908f9088;
     font-size: 16px;
-    color: #fff;
+    color: antiquewhite;
     cursor: pointer;
     border-radius: 30px;
     border: none;
@@ -94,7 +94,7 @@ h2{
 }
 
 p{
-    color: #fff;
+   color: antiquewhite;
 }
 
 footer {
@@ -125,7 +125,7 @@ footer {
 }
 
 .button2 {
-
+    background-color: antiquewhite;
     text-decoration: none;
     color: rgb(6, 6, 6);
 }
