@@ -1,0 +1,265 @@
+*{
+    font-family:  sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    background: black;
+    
+
+}
+.wrapper{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to right,
+     #2c2c2c,
+     #373636,
+     #4c4c4d);
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 200px;
+    align-content: center;
+    margin-left: -900px;
+   
+    
+}
+
+
+
+h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    background: linear-gradient(to right,
+     #2c2c2c,
+     #373636,
+     #4c4c4d);
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+   
+}
+.input-group input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: -5px;
+}
+
+.remember{
+    margin: -5px 0 15px 5px;
+}
+
+.remember label{
+    color: #fffdfd;
+    font-size: 14px;
+
+}
+
+
+.forgot{
+    text-align: right;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+    text-align: center;
+    color: #7e7d7d;
+}
+
+button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #908f9088;
+    font-size: 16px solid;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: #4542459f;
+
+
+}
+
+.signUp-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.signUp-link p a{
+    color: #faf8f9;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.signUp-link p a:hover{
+    text-decoration: underline;
+    text-align: center;
+    color: #7e7d7d;
+}
+
+/* paragraphs */
+p{color: #fff;
+font-size: 16;}
+
+.social{
+    text-align: center;
+    font-size: 14px;
+   
+
+
+}
+.facebook {
+    display: inline;
+     justify-items: center;
+     text-align: center;
+     height: 30px;
+     width: 30px;
+     margin-left: 100px;
+     border-radius: 50%;
+    
+}
+.facebook:hover{
+    background-color: #d4d1d3;
+   cursor: pointer;
+}
+
+.twitter {
+    display: inline;
+     justify-items: center;
+     text-align: center;
+     height: 30px;
+     width: 30px;
+     margin-left: 50px;
+     border-radius: 50%;
+    
+}
+.twitter:hover{
+    background-color: #c8c7c8;
+   cursor: pointer;
+}
+
+.google {
+    display: inline;
+     justify-items: center;
+     text-align: center;
+     height: 30px;
+     width: 30px;
+     margin-left: 50px;
+     border-radius: 50%;
+    
+}
+.google:hover{
+    background-color: #c5c3c4;
+   cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+
+}
+
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -650px;
+    font-size: 30px;
+    font-weight: 700px;
+
+
+}
+
+.nav-links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.logodv{
+    width:300px;
+    width: 40px;
+    height: 40px;
+}
+
+h3{
+    color: antiquewhite;
+    
+   
+
+}
+.main{
+    margin-top: -600px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+    
+   
+}
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+
+}
+
+.leftpart{
+    display: flex;
+   width: 800px;
+   justify-content: center;
+   
+}
+
+
+
+
+li a {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    
+}
