@@ -67,9 +67,14 @@ header{
     padding: 30px 10px;
 }
 
-.nav-links{
+.nav-links:hover{
+    text-decoration: underline;
+
     list-style: none;
    
+}
+.leftpart nav ul li a:hover {
+    text-decoration: underline;
 }
 .nav-links li {
     
@@ -81,6 +86,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-color: black;
+    max-width: 1500px;
 }
 
 .ckName {
