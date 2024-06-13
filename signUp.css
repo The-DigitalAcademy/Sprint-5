@@ -72,17 +72,17 @@ h2{
     align-items: center;
 }
 
-.results, .clear {
+.results {
     position: relative;
-    width: 50%;
-    height: 40px;
-    background: #908f9088;
+    width: 150px;
+    height: 30px;
+    background:antiquewhite;
     font-size: 16px;
-    color: antiquewhite;
+    color: black;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 5px;
     border: none;
-    margin: 20px 0;
+    margin: auto;
     
 }
 .clear{
