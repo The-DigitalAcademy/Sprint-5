@@ -21,7 +21,7 @@
 }
 
 .leftpart {
-    margin-left: 360px;
+    margin-left: 420px;
 }
 
 
@@ -130,6 +130,8 @@ body{
     /* margin-top: 200px; */
     align-content: center;
     margin: auto;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     /* margin-left: -450px; */
   
     
