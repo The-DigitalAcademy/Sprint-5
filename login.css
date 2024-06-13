@@ -1,10 +1,12 @@
-*{
-    font-family:  sans-serif;
-}
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
     display: flex;
     align-items: center;
     background: black;
+    max-width: 1500px;
     
 
 }
@@ -185,3 +187,30 @@ font-size: 16;}
    cursor: pointer;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: -800px;
+    margin-LEFT: -450px;
+    width: 400PX;
+
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
