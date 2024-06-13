@@ -4,6 +4,7 @@ body{
     display: flex;
     align-items: center;
     background: black;
+    max-width: 1500px;
 
 }
 .wrapper{
