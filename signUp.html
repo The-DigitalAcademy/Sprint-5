@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+<body>
+    <header class="main">
+        <div class="headdiv">
+            <div class="logodv"><img src="jumping-rope-svgrepo-com_use.svg"></div>
+            <h1>Gym Club</h1>
+        </div>
+        <div class="leftpart">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div><hr class="hrline"></div>
+    <div class="wrapper">
+        <form>
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <input type="text" id="fname" required>
+                <label>Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="surname" required>
+                <label>Surname</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone" required>
+                <label>Phone number</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="id" required>
+                <label>ID Number</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password1" required>
+                <label>Enter password</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password2" required>
+                <label>Confirm password</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="location" required>
+                <label>Location</label>
+            </div>
+            <div class="buttons">
+                <button onclick="gymApp()" type="submit" class="results">Submit</button>
+                <button type="reset" class="clear">Clear</button>
+            </div>
+        </form>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

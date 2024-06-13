@@ -75,3 +75,18 @@ else {alert (`Hi ${Name} your Exercise ${group9} \n your BMI is ${bmi.toFixed(1)
 }
 
 
+
+
+
+
+
+}
+function clearfn() {        
+       document.getElementById('Fname').value = ''; 
+       document.getElementById('gender').value = '';     
+       document.getElementById('age').value = '';     
+       document.getElementById('weight').value = '';     
+       document.getElementById('height').value = '';       
+       document.getElementById("display").innerHTML = '';  }
+
+

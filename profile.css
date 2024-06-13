@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.logo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.logodv {
+
+    margin-left: 120px;
+
+}
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+
+}
+
+.leftpart {
+    margin-left: 360px;
+}
+
+
+
+
+.headPart {
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    margin-top: -10px;
+    /* margin-left: 100px; */
+}
+
+li,a,button {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.nav-links{
+    list-style: none;
+   
+   
+}
+.nav-links li {
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    max-width: 1500px;
+}
+
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: -650px; */
+    font-size: 30px;
+    font-weight: 700px;
+    margin-right: 100px;
+}
+.loginM {
+    
+    /* align-items: center; */
+    color:black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    /* margin-top: 60px; */
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 650px; */
+    /* width: 120px; */
+    /* height: 50px; */
+    /* font-size: 8px; */
+}
+
+.appB {
+    
+    /* align-items: center; */
+    color:black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.appB:hover{
+    cursor: pointer;
+    box-shadow:  0 0 11px purple;
+}
+
+ .card1:active{
+    background-color: black;
+    color: white;
+ }
+
+
+
+ .wrapper{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to right,
+     #2c2c2c,
+     #373636,
+     #4c4c4d);
+    border-radius: 5px;
+    padding: 40px;
+    /* margin-top: 200px; */
+    align-content: center;
+    margin: auto;
+    /* margin-left: -450px; */
+  
+    
+}
+
+
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.input-group {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    outline: none;
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: -5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.results {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    /* margin: 20px 0; */
+    margin-left: 100px;
+    color:black;
+    background-color: antiquewhite;
+    
+    
+}
+
+.clear{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    /* margin: 20px 0; */
+    margin-left: 30px;
+    color:black;
+    background-color: antiquewhite;
+}
+
+.results:hover, .clear:hover {
+    background-color: #4542459f;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
