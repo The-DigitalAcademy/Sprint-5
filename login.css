@@ -12,7 +12,7 @@ body{
 }
 .wrapper{
     width: 400px;
-    height: 500px;
+    height: 450px;
     background: linear-gradient(to right,
      #2c2c2c,
      #373636,
@@ -32,6 +32,7 @@ h2{
     font-size: 30px;
     color: #fff;
     text-align: center;
+    
 
 }
 
@@ -93,7 +94,7 @@ h2{
     color: #7e7d7d;
 }
 
-button{
+.button1{
     position: relative;
     width: 100%;
     height: 40px;
@@ -106,7 +107,7 @@ button{
     outline: none;
 }
 
-button:hover{
+.button1:hover{
     background-color: #4542459f;
 
 
@@ -214,3 +215,10 @@ footer {
 .footer-content a:hover {
     text-decoration: underline;
 }
+.button2 {
+
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
+
+      
