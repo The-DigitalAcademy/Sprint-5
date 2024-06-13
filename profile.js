@@ -19,3 +19,8 @@ function gymApp() {
         // Redirect to home.html
         window.location.href = 'home.html';
     }
+}
+function gymApp() {
+    // Redirect to the profile page
+    window.location.href = "profile.html";
+}

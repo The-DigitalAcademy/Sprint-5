@@ -7,26 +7,9 @@
     <link rel="stylesheet" href="signUp.css">
 </head>
 <body>
-    <header class="main">
-        <div class="headdiv">
-            <div class="logodv"><img src="jumping-rope-svgrepo-com_use.svg"></div>
-            <h1>Gym Club</h1>
-        </div>
-        <div class="leftpart">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Profile</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div><hr class="hrline"></div>
+    
     <div class="wrapper">
-        <form>
+        
             <h2>Sign Up</h2>
             <div class="input-group">
                 <input type="text" id="fname" required>
@@ -60,12 +43,30 @@
                 <input type="text" id="location" required>
                 <label>Location</label>
             </div>
-            <div class="buttons">
+            <div class="button1">
                 <button onclick="gymApp()" type="submit" class="results">Submit</button>
-                <button type="reset" class="clear">Clear</button>
             </div>
-        </form>
+        
     </div>
+
+    <footer>
+        <div >
+            <a href="home.html"><button type="submit" class="button2">Home</button></a> | <a href="home.html"><button type="submit" class="button2">Contact Us</button></a> 
+            
+        </div>
+        <br>
+        <div class="footer-content">
+            <p>&copy; 2024 Gym Club. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+
+
     <script src="profile.js"></script>
 </body>
 </html>

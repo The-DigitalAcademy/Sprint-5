@@ -7,24 +7,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <header class ="main">
-        <div class="headdiv">
-         
-                <div class="logodv"> <img src="jumping-rope-svgrepo-com_use.svg" ></div>
-             <h3>Gym Club</h3>
-            </div>
-            <div class="leftpart">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Profile</a></li>
-                    </ul>
-                </nav>
-        </div>
-    </header>
+  
     
     <div class="wrapper">
        
@@ -42,7 +25,8 @@
                    <label><input type="checkbox">Remember me</label>
                    <label class="forgot">Forgot password?</label>
                 </div>
-                <button type="submit">Sign In</button>
+                <br>
+                <button onclick="gymApp()" class="button1" type="submit">Sign In</button>
 
                 <div class="signUp-link">
                     <p>Don't have an account? <a href="signUp.html"
@@ -59,12 +43,31 @@
                    <a href="https://www.google.com"> <img src="icons8-google-48.png"  class="google"> </a>
                     
                 </div>
+
                 
-                </div>
+                   
                 
             
 
     </div>
+
+    <footer>
+        <div >
+            <a href="home.html"><button type="submit" class="button2">Home</button></a> | <a href="home.html"><button type="submit" class="button2">Contact Us</button></a> 
+            
+        </div>
+        <br>
+        <div class="footer-content">
+            <p>&copy; 2024 Gym Club. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    
+
     <script src="profile.js"></script>
 </body>
 </html>
