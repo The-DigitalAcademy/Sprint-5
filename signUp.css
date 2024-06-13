@@ -16,9 +16,9 @@ body{
      #4c4c4d);
     border-radius: 5px;
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
     align-content: center;
-    margin-left: -900px;
+    margin-left: 500px;
    
     
 }
@@ -99,78 +99,3 @@ p{
     color: #fff;
 }
 
-.headdiv {
-
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    gap: 400px;
- margin-top: 0px;
-}
-
-.ckName {
-    color: antiquewhite;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: -650px;
-    font-size: 30px;
-    font-weight: 700px;
-
-
-}
-
-.nav-links li {
-
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-
-.logodv{
-    
-    width: 30px;
-    height: 30px;
-   margin-left: 50px;
-    
-}
-
-h1{
-    color: antiquewhite;
-   
-    
-   
-
-}
-.main{
-    margin-top: -900px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    /* padding: 30px 10px; */
-    
-   
-}
-.ckName {
-    color: antiquewhite;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 700px;
-
-}
-.hrline{ color: antiquewhite;}
-.leftpart{
-    display: flex;
-   width: 800px;
-   justify-content: center;
-   
-}
-
-
-li a {
-    display: flex;
-    text-decoration: none;
-    justify-content: space-between;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    color: antiquewhite;
-    
-}
