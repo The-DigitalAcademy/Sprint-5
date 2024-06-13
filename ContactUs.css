@@ -2,11 +2,12 @@
 font-family:sans-serif ;
 font-weight: lighter;
 font-size: small;
+max-width: 1500px;
 }
 
 .parr{
     font-family: sans-serif;
-    color: aliceblue;
+    color:antiquewhite;
 }
 
 img {
@@ -45,10 +46,11 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-weight: bolder;
 font-size: 12px;
 margin-top: 0px;
+padding-bottom: 9px;
 }
 
 .text{
-    color: aliceblue;
+    color: rgb(26, 26, 26);
 }
 
 .bg{
@@ -57,15 +59,15 @@ margin-top: 0px;
  
 
 .par{
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .cont{
-    font-size: x-large;
-    font-style: normal;
+    font-size: xx-large;
+    font-style: bold;
     text-shadow: 10px;
-    font-weight: 100;
-    color: aliceblue;
+    font-weight: 100px;
+    color: black;
     
 }
 
@@ -102,7 +104,7 @@ width: 50%;
 font-size: 0.875rem;
 line-height: 1.25rem; 
 font-weight: 500; 
-color: #e6e8ec; 
+color: black; 
 
 }
 
@@ -117,7 +119,7 @@ width: 50%;
 font-size: 0.875rem;
 line-height: 1.25rem; 
 font-weight: 500; 
-color: #f0f1f4; 
+color:black; 
 
 
 }
@@ -133,7 +135,7 @@ color: #f0f1f4;
     font-size: 0.875rem;
     line-height: 1.25rem; 
     font-weight: 500; 
-    color: #e0e2e5; 
+    color: black; 
     
 }
 
@@ -148,7 +150,7 @@ color: #f0f1f4;
     font-size: 0.875rem;
     line-height: 1.25rem; 
     font-weight: 500; 
-    color: #d3d5d8; 
+    color: black; 
     
     }
 
@@ -163,7 +165,7 @@ width: 50%;
 font-size: 0.875rem;
 line-height: 1.25rem; 
 font-weight: 500; 
-color: #cacbcd; 
+color: black; 
 align-items: flex-end;
 }
 
@@ -178,7 +180,7 @@ width: 50%;
 font-size: 0.875rem;
 line-height: 1.25rem; 
 font-weight: 500; 
-color: #8c8d8f; 
+color: black; 
 
 
 }
@@ -194,11 +196,11 @@ width: 155%;
 font-size: 0.875rem;
 line-height: 1.25rem; 
 font-weight: 500; 
-color: #c6c8cb; 
+color: black; 
 }
 
 .text{
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 #message{
@@ -212,12 +214,20 @@ color: #c6c8cb;
     font-size: 0.875rem;
     line-height: 1.25rem; 
     font-weight: 500; 
-    color: #c6c8cb; 
+    color:grey; 
 }
 
 .butt{
     color: black;
     background-color: antiquewhite;
-    border-radius: 4px; width: 150px; height: 30px;
+    border-radius: 5px; width: 150px; height: 30px;
 align-content: center;
+}
+
+.home{
+    border-radius: 5px;  
+    align-items: center;
+    background-color: antiquewhite;
+    margin-right: 6px;
+    text-decoration: none;
 }
